@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+}
+
+@media screen and (max-width:800px){
+    
+    .container{
+        display: block;
+    }
+}
+
+.control-div{
+    background: linear-gradient(to right, #48d89c, #6ecbd4);
+}

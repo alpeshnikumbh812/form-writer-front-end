@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+.create-profile-form-div{
+
+    height: 40vh;
+    /* border: 3px solid black; */
+    padding: auto;
+    padding-top: 5%;
+    text-align: left;
+    background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    background: linear-gradient(to left, #25c481, #25b7c4);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.create-profile-form-div .create-form{
+    margin: auto;
+    /* margin-top: 15px; */
+    /* border: 3px solid black; */
+    width: 40%;
+    height: 23vh;
+    padding: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 0px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 0px 31px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 0px 31px 0px rgba(0,0,0,0.75);
+}
+
+.create-form .file{
+
+    margin-top: 2%; 
+    height: 3vh;
+}
+.create-form .profile-name{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 3vh;
+    border-radius: 5px;
+}
+.create-form button {
+    width: 12%;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-top: 4%;
+}
+
+.create-form button:hover{
+
+    width: 15%;
+}
